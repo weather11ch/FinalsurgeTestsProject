@@ -12,5 +12,10 @@ namespace FinalsurgeTestsProject.Tests
             
             Assert.AreEqual(message, "rut");
         }
+        [Test]
+        public void AddWorkOutRunTest() 
+        {
+            Workouts.AddWorkOutRun();
+        }
     }
 }

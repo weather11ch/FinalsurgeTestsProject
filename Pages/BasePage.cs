@@ -19,7 +19,6 @@ namespace FinalsurgeTestsProject.Pages
         {
             driver.Close();
         }
-
         public static void Authorization()
         {
             emailField = Driver.WaitDriver(driver, 30).Until(ExpectedConditions.ElementIsVisible(By.Id("login_name")));
@@ -30,11 +29,7 @@ namespace FinalsurgeTestsProject.Pages
             passwordField.SendKeys("12345Tt12345!");
 
             signIn = Driver.WaitDriver(driver, 30).Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id=\"login-validate\"]/div[2]/button")));
-            signIn.Click();
-            Thread.Sleep(1000);
-            //*[@id="__layout"]/div/div[2]/section/div/div/div/div[3]/div/div[2]/a/span
-            //classicWebPlatformClick = Driver.WaitDriver(driver, 30).Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id=\"__layout\"]/div/div[2]/section/div/div/div/div[3]/div/div[2]/a/span")));
-            //classicWebPlatformClick.Click();
+            signIn.Click();                     
 
         }
         public static string GetWelcomeNickname()
@@ -45,7 +40,5 @@ namespace FinalsurgeTestsProject.Pages
             return message;
         }
 
-        //html/body/div[1]/header/div/div/div[3]/div/div/div/strong
-        //html/body/div[1]/header/div/div/div[3]/div/div/div/strong
     }
 }

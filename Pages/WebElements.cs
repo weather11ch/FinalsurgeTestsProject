@@ -8,8 +8,8 @@ namespace FinalsurgeTestsProject.Pages
         public static IWebElement passwordField;
         public static IWebElement signIn;
         public static IWebElement classicWebPlatformClick;
-        public static IWebElement wecomeNickname
-            ;
-        //public static IWebElement demoProjectPageElement;
+        public static IWebElement wecomeNickname;
+        public static IWebElement workoutArrowDown;
+        public static IWebElement workoutAdd;
     }
 }

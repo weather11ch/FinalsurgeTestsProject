@@ -13,8 +13,7 @@ namespace FinalsurgeTestsProject.Tests
             Driver.GetDriver();
             Driver.WaitDriver(Driver.GetDriver(), 30);
             BasePage.OpenPage(basePageUrl);
-            BasePage.Authorization();
-            Thread.Sleep(10000);
+            BasePage.Authorization();            
         }
 
         [TearDown]
