@@ -13,7 +13,7 @@ namespace FinalsurgeTestsProject.Tests
             Driver.GetDriver();
             Driver.WaitDriver(Driver.GetDriver(), 30);
             BasePage.OpenPage(basePageUrl);
-            BasePage.Authorization();            
+            Authorization.LoginPasswordEnter();            
         }
 
         [TearDown]

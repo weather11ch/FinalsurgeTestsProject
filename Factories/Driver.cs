@@ -7,7 +7,6 @@ namespace FinalsurgeTestsProject.Factories
     internal class Driver
     {
         public static IWebDriver? _driver;
-
         public static WebDriverWait? _wait;
         private static IWebDriver SetupDriver() => _driver ??= new ChromeDriver();
         public static IWebDriver GetDriver() => _driver ??= SetupDriver();

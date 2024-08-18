@@ -8,7 +8,7 @@ namespace FinalsurgeTestsProject.Tests
         [Test]
         public void AauthorizationCheckTest()
         {
-            string message = BasePage.GetWelcomeNickname();
+            string message = Authorization.GetWelcomeNickname();
             
             Assert.AreEqual(message, "rut");
         }
