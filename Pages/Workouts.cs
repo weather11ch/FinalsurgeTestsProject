@@ -3,6 +3,8 @@ using OpenQA.Selenium;
 using SeleniumExtras.WaitHelpers;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Remote;
+using System.Xml.Linq;
+using System;
 
 namespace FinalsurgeTestsProject.Pages
 {
@@ -14,9 +16,10 @@ namespace FinalsurgeTestsProject.Pages
         private static WebElements testChuuseElement = new(By.Id("fade-menu"));
         public static void AddWorkOutRun()
         {
-            testChuuseElement.SelectElement();
-
-            workOutsMenu.SelectElement();
+            // testChuuseElement.SelectElement();
+            //MoveToElement(workOutsMenu).Perform();
+            workOutsMenu.ScrollToElement();
+               
             //workOutsMenu.ScrollToElementByJS();
             addWorkOuts.SelectElement();
             addWorkOuts.Click();

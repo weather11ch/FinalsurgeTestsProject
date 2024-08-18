@@ -15,7 +15,15 @@ namespace FinalsurgeTestsProject.Tests
         [Test]
         public void AddWorkOutRunTest() 
         {
+            //BasePage.OpenPage("https://log.finalsurge.com/WorkoutAdd.cshtml");
             Workouts.AddWorkOutRun();
+        }
+
+        [Test]
+        public void OpenAddWorksPageTest()
+        {
+            BasePage.OpenPage("https://log.finalsurge.com/WorkoutAdd.cshtml");
+
         }
     }
 }

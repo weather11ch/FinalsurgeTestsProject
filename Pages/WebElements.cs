@@ -15,6 +15,7 @@ namespace FinalsurgeTestsProject.Pages
         public static IWebElement workoutAdd;
         
         private readonly By? _locator;
+
         private Actions actions = new Actions(Driver.GetDriver());
         public WebElements(By locator) => _locator = locator;
         public IWebElement WebElement
@@ -41,7 +42,11 @@ namespace FinalsurgeTestsProject.Pages
         }
         //public void SelectMenuElement() => 
         //SelectElement select = new SelectElement(element);
-        public void SelectElement() => new SelectElement(WebElement);
+        public  SelectElement SelectElement() 
+        {
+            SelectElement select = new SelectElement(WebElement);
+            return select;
+        }
         
         //SelectElement select = new SelectElement(By.Id("selectnav1"));
         public string GetAttribute(string atr) => WebElement.GetAttribute(atr);
