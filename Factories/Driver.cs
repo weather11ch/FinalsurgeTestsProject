@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 
 namespace FinalsurgeTestsProject.Factories
@@ -11,7 +12,7 @@ namespace FinalsurgeTestsProject.Factories
         private static IWebDriver SetupDriver() => _driver ??= new ChromeDriver();
         public static IWebDriver GetDriver() => _driver ??= SetupDriver();
         public static WebDriverWait WaitDriver(IWebDriver driver, double waitTime) => _wait ??= new WebDriverWait(driver, TimeSpan.FromSeconds(waitTime));
-
+        //Actions action = new Actions(_driver);
         //обнуление драйвера
         public static void QuitDriver()
         {

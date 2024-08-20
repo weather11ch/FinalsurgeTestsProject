@@ -1,5 +1,6 @@
 ﻿using FinalsurgeTestsProject.Factories;
 using FinalsurgeTestsProject.Pages;
+using FinalsurgeTestsProject.Pages.Workouts;
 
 namespace FinalsurgeTestsProject.Tests
 {
@@ -15,14 +16,16 @@ namespace FinalsurgeTestsProject.Tests
         [Test]
         public void AddWorkOutRunTest() 
         {
-            //BasePage.OpenPage("https://log.finalsurge.com/WorkoutAdd.cshtml");
-            Workouts.AddWorkOutRun();
+            BasePage.OpenPage("https://log.finalsurge.com/WorkoutAdd.cshtml");
+            Workouts.AddNewWorkOutRun();
         }
 
         [Test]
         public void OpenAddWorksPageTest()
         {
             BasePage.OpenPage("https://log.finalsurge.com/WorkoutAdd.cshtml");
+            string result = Workouts.GetTextAddWorkoutPageElement();
+            Assert.AreEqual(result, "Add Workout");
 
         }
     }

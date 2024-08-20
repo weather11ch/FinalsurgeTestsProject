@@ -26,18 +26,18 @@ namespace FinalsurgeTestsProject.Pages
                 return Driver.GetDriver().FindElement(_locator);
             }
         }
-
         public void WaitWebElementPresent() => Driver.WaitDriver(Driver.GetDriver(),30).Until(drv => drv.FindElements(_locator).Count() > 0);
+        public void WaitWebElement() => Driver.WaitDriver(Driver.GetDriver(), 30).Until(drv => drv.FindElement(_locator));
 
         public void SendKeys(string value)
         {
-            ScrollToElement();
+            //ScrollToElement();
             WebElement.SendKeys(value);
         }
 
         public void Click()
         {
-            ScrollToElement();
+            //ScrollToElement();
             WebElement.Click();
         }
         //public void SelectMenuElement() => 
