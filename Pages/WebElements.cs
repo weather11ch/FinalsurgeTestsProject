@@ -37,7 +37,7 @@ namespace FinalsurgeTestsProject.Pages
 
         public void Click()
         {
-            //ScrollToElement();
+            ScrollToElement();
             WebElement.Click();
         }
         //public void SelectMenuElement() => 
@@ -83,6 +83,13 @@ namespace FinalsurgeTestsProject.Pages
         public static void FrmaeExit() => Driver.GetDriver().SwitchTo().DefaultContent();
 
         public string GetText() => WebElement.Text;
+
+        //получение текстового значения элемента
+        public static string GetTextWebElement(WebElements element)
+        {
+            string text = element.GetText();
+            return text;
+        }
     }
 }
 

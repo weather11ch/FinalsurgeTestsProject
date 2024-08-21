@@ -17,7 +17,7 @@ namespace FinalsurgeTestsProject.Tests
         public void AddWorkOutRunTest() 
         {
             BasePage.OpenPage("https://log.finalsurge.com/WorkoutAdd.cshtml");
-            Workouts.AddNewWorkOutRun();
+            Workouts.AddNewWorkoutRun();
         }
 
         [Test]
