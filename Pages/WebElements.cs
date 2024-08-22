@@ -2,7 +2,8 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
-using System.Xml.Linq;
+using OpenQA.Selenium.Chrome;
+
 
 namespace FinalsurgeTestsProject.Pages
 {
@@ -22,17 +23,17 @@ namespace FinalsurgeTestsProject.Pages
         {
             get
             {
-                WaitWebElementPresent();
+                WaitElement();
                 return Driver.GetDriver().FindElement(_locator);
             }
         }
         public void WaitWebElementPresent() => Driver.WaitDriver(Driver.GetDriver(),30).Until(drv => drv.FindElements(_locator).Count() > 0);
-        public void WaitWebElement() => Driver.WaitDriver(Driver.GetDriver(), 30).Until(drv => drv.FindElement(_locator));
+        public void WaitElement() => Driver.WaitDriver(Driver.GetDriver(), 30).Until(drv => drv.FindElement(_locator));
 
         public void SendKeys(string value)
         {
             //ScrollToElement();
-            WebElement.SendKeys(value);
+            WebElement.SendKeys(value);            
         }
 
         public void Click()
@@ -50,9 +51,10 @@ namespace FinalsurgeTestsProject.Pages
         
         //SelectElement select = new SelectElement(By.Id("selectnav1"));
         public string GetAttribute(string atr) => WebElement.GetAttribute(atr);
+        public string GetWebElementValue(string property) => WebElement.GetCssValue(property);
 
         public void ScrollToElement() => actions.MoveToElement(WebElement);
-
+        
         public void ScrollToElementByJS() => ((IJavaScriptExecutor)Driver.GetDriver()).ExecuteScript("argumnet[0].scrollIntoView(true)", WebElement);
 
         public static void AcceptAlert()
@@ -83,11 +85,12 @@ namespace FinalsurgeTestsProject.Pages
         public static void FrmaeExit() => Driver.GetDriver().SwitchTo().DefaultContent();
 
         public string GetText() => WebElement.Text;
+        
 
         //получение текстового значения элемента
         public static string GetTextWebElement(WebElements element)
         {
-            string text = element.GetText();
+            string text = element.GetText(); 
             return text;
         }
     }

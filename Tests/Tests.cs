@@ -14,10 +14,12 @@ namespace FinalsurgeTestsProject.Tests
             Assert.AreEqual(message, "rut");
         }
         [Test]
-        public void AddWorkOutRunTest() 
+        public void AddNewWorkoutRunTest() 
         {
             BasePage.OpenPage("https://log.finalsurge.com/WorkoutAdd.cshtml");
-            Workouts.AddNewWorkoutRun();
+            Workouts.AddNewWorkoutRun("first run","running description");
+            bool result = Workouts.CheckNewdWorkoutDetails("first run", "running description");
+            Assert.That(result, Is.True);
         }
 
         [Test]

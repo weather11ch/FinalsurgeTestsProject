@@ -1,12 +1,8 @@
 ﻿using FinalsurgeTestsProject.Factories;
+using NUnit.Framework.Constraints;
 using OpenQA.Selenium;
-using SeleniumExtras.WaitHelpers;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
-using OpenQA.Selenium.Remote;
-using System.Xml.Linq;
-using System;
-using OpenQA.Selenium.Interactions;
-using System.Xml;
 
 namespace FinalsurgeTestsProject.Pages.Workouts
 {
@@ -22,45 +18,49 @@ namespace FinalsurgeTestsProject.Pages.Workouts
         private static WebElements workoutDescription = new(By.XPath("//*[@id=\"Desc\"]"));
         private static WebElements addWorkoutButton = new(By.Id("saveButton"));
         //элементы workout details
-        private static WebElements workoutDetails = new(By.XPath("//*[@id=\"Desc\"]"));
-        private static WebElements activityType = new(By.XPath("//*[@id=\"Desc\"]"));
-        private static WebElements activityTypeName = new(By.XPath("//*[@id=\"Desc\"]"));
-        private static WebElements savedWorkoutDescription = new(By.XPath("//*[@id=\"Desc\"]"));
-
+        private static WebElements workoutDetails = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div/div[2]/span"));
+        private static WebElements activityType = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div/div[2]/span"));
+        private static WebElements activityTypeName = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div/div[3]"));
+        private static readonly WebElements savedWorkoutDescription  = new(By.XPath("//*[@class=\"muted\"]/following-sibling::*"));
+        private static readonly WebElements savedWorkoutDescription1 = new(By.XPath(" //*[@class=\" testme dont-break-out\"]"));
+                
 
         //пока не нужные
         private static WebElements workOutsMenu = new(By.Id("selectnav1"));
         private static WebElements addWorkOuts = new(By.XPath("//*[@id=\"selectnav1\"]/option[3]"));
-
         private static WebElements testChuuseElement = new(By.Id("fade-menu"));
 
-        //получение текстового значения элемента
+        //получение текстового значения элемента addWorkoutPageElement
         public static string GetTextAddWorkoutPageElement() 
         {
             string text = WebElements.GetTextWebElement(addWorkoutPageElement);            
             return text;
         }
-
         //
-        public static void AddNewWorkoutRun()
-        {
+        public static void AddNewWorkoutRun(string name, string description)
+        {            
             run.Click();
-            workoutName.WaitWebElement();
+            Thread.Sleep(1000);
+            workoutName.WaitElement();
             workoutName.Click();
-            workoutName.SendKeys("first run");
+            workoutName.SendKeys($"{name}");
             workoutDescription.Click();
-            workoutDescription.SendKeys("running");
+            workoutDescription.SendKeys($"{description}");
             
-            ((IJavaScriptExecutor)Driver.GetDriver()).ExecuteScript("window.scrollBy(0,500)", "");
-            //((IJavaScriptExecutor)Driver.GetDriver()).ExecuteScript("window.scrollBy(0,250)", "");
-            //js.ExecuteScript("arguments[0].click();", addWorkoutButton);
+            ((IJavaScriptExecutor)Driver.GetDriver()).ExecuteScript("window.scrollBy(0,600)", "");
+            
             addWorkoutButton.ScrollToElement();
             addWorkoutButton.Click();
         }    
-        public static string CheckNewdWorkoutDetails()
+        public static bool CheckNewdWorkoutDetails(string name, string description)
         {
-            string text = WebElements.GetTextWebElement(workoutDetails);
-            return text;
+            string nametest1 = WebElements.GetTextWebElement(activityTypeName);
+            savedWorkoutDescription.WaitElement();
+            //Thread.Sleep(1000);            
+            string nametest2 =  savedWorkoutDescription1.GetText().Substring(22);
+            
+            if (name == nametest1 && description == nametest2)
+                {return true;} else { return false; };
         }
     }
 }
