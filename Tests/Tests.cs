@@ -1,12 +1,15 @@
 ﻿using FinalsurgeTestsProject.Factories;
 using FinalsurgeTestsProject.Pages;
 using FinalsurgeTestsProject.Pages.TrainingCalendar;
+using FinalsurgeTestsProject.Pages.Vitals;
 using FinalsurgeTestsProject.Pages.Workouts;
+using OpenQA.Selenium;
 
 namespace FinalsurgeTestsProject.Tests
 {
     public class Tests : BaseTest
     {
+        
         [Test]
         public void AauthorizationCheckTest()
         {
@@ -14,14 +17,7 @@ namespace FinalsurgeTestsProject.Tests
             
             Assert.AreEqual(message, "rut");
         }
-        [Test]
-        public void AddNewWorkoutRunTest() 
-        {
-            BasePage.OpenPage("https://log.finalsurge.com/WorkoutAdd.cshtml");
-            Workouts.AddNewWorkoutRun("first run","running description");
-            bool result = Workouts.CheckNewdWorkoutDetails("first run", "running description");
-            Assert.That(result, Is.True);
-        }
+       
 
         [Test]
         public void OpenAddWorksPageTest()
@@ -40,6 +36,11 @@ namespace FinalsurgeTestsProject.Tests
         public void OpenCalendarByButtonTest() 
         {
             ButtonMenu.CalendarOpenByButton();
+        }
+        [Test]
+        public void OpenDailyVitalsPageTest()
+        {
+            DailyVitalsPage.OpenDailyVitalsPage();
         }
     }
 }
