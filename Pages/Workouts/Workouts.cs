@@ -13,11 +13,17 @@ namespace FinalsurgeTestsProject.Pages.Workouts
         //элементы для выбора пункта меню Activity Type 
         public static WebElements run = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[1]/div[1]/a"));
         private static WebElements bike = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[2]/div[1]/a"));
+        private static WebElements swim = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[3]/div[1]/a"));
+        private static WebElements crossTraining = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[4]/div[1]/a"));
         //элементы окна ADD NEW WORKOUT
         private static WebElements timeOfDay = new(By.XPath("//*[@id=\"WorkoutTime\"]"));
         private static WebElements workoutName = new(By.XPath("//*[@id=\"Name\"]"));
         private static WebElements workoutDescription = new(By.XPath("//*[@id=\"Desc\"]"));
         private static WebElements addWorkoutButton = new(By.Id("saveButton"));
+        private static WebElements showPlannedDistanceDuration = new(By.XPath("//*[@id=\"col1\"]/div[2]/div[2]/div[3]/label/span"));
+        private static WebElements plannedDistance = new(By.XPath("//*[@id=\"PDistance\"]"));
+        private static WebElements plannedDuration = new(By.XPath("//*[@id=\"PDuration\"]"));
+
         //элементы окна workout details
         private static WebElements workoutDetails = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div/div[2]/span"));
         private static WebElements activityType = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div/div[2]/span"));
@@ -51,9 +57,7 @@ namespace FinalsurgeTestsProject.Pages.Workouts
             workoutName.SendKeys($"{name}");
             workoutDescription.Click();
             workoutDescription.SendKeys($"{description}");
-
             ((IJavaScriptExecutor)Driver.GetDriver()).ExecuteScript("window.scrollBy(0,600)", "");
-
             addWorkoutButton.ScrollToElement();
             addWorkoutButton.Click();
         }

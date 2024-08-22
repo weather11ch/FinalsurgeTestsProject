@@ -13,8 +13,7 @@ namespace FinalsurgeTestsProject.Tests
         [Test]
         public void AauthorizationCheckTest()
         {
-            string message = Authorization.GetWelcomeNickname();
-            
+            string message = Authorization.GetWelcomeNickname();            
             Assert.AreEqual(message, "rut");
         }
        
