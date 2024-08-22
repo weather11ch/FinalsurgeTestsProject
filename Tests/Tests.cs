@@ -1,5 +1,6 @@
 ﻿using FinalsurgeTestsProject.Factories;
 using FinalsurgeTestsProject.Pages;
+using FinalsurgeTestsProject.Pages.TrainingCalendar;
 using FinalsurgeTestsProject.Pages.Workouts;
 
 namespace FinalsurgeTestsProject.Tests
@@ -29,6 +30,16 @@ namespace FinalsurgeTestsProject.Tests
             string result = Workouts.GetTextAddWorkoutPageElement();
             Assert.AreEqual(result, "Add Workout");
 
+        }
+        [Test]
+        public void OpenTrainingCalendarPageTest()
+        {
+            TrainingCalendarPage.OpenTrainingCalendarPage();
+        }
+        [Test]
+        public void OpenCalendarByButtonTest() 
+        {
+            ButtonMenu.CalendarOpenByButton();
         }
     }
 }

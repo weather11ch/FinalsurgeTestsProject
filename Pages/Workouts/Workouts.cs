@@ -17,7 +17,7 @@ namespace FinalsurgeTestsProject.Pages.Workouts
         private static WebElements workoutName = new(By.XPath("//*[@id=\"Name\"]"));
         private static WebElements workoutDescription = new(By.XPath("//*[@id=\"Desc\"]"));
         private static WebElements addWorkoutButton = new(By.Id("saveButton"));
-        //элементы workout details
+        //элементы окна workout details
         private static WebElements workoutDetails = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div/div[2]/span"));
         private static WebElements activityType = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div/div[2]/span"));
         private static WebElements activityTypeName = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div/div[3]"));

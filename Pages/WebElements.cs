@@ -23,7 +23,7 @@ namespace FinalsurgeTestsProject.Pages
         {
             get
             {
-                WaitElement();
+                WaitWebElementPresent();
                 return Driver.GetDriver().FindElement(_locator);
             }
         }
