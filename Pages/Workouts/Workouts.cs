@@ -15,6 +15,13 @@ namespace FinalsurgeTestsProject.Pages.Workouts
         private static WebElements bike = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[2]/div[1]/a"));
         private static WebElements swim = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[3]/div[1]/a"));
         private static WebElements crossTraining = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[4]/div[1]/a"));
+        private static WebElements walk = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[5]/div[1]/a"));
+        private static WebElements restDay = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[6]/div[1]/a"));
+        private static WebElements strenghTraining = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[7]/div[1]/a"));
+        private static WebElements recoveryRehub = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[8]/div[1]/a"));
+        private static WebElements other = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[9]/div[1]/a"));
+        private static WebElements transition = new(By.XPath("//*[@id=\"blog_accordion_left\"]/div[10]/div[1]/a"));
+        private static WebElements element;
         //элементы окна ADD NEW WORKOUT
         private static WebElements timeOfDay = new(By.XPath("//*[@id=\"WorkoutTime\"]"));
         private static WebElements workoutName = new(By.XPath("//*[@id=\"Name\"]"));
@@ -48,8 +55,22 @@ namespace FinalsurgeTestsProject.Pages.Workouts
                 {return true;} else { return false; };
         }
         //добавление нового workout в переменной element передается activity type
-        public static void AddNewWorkout(WebElements element, string name, string description)
+        public static void AddNewWorkout(string elem, string name, string description)
         {
+            
+            switch (elem)
+                {
+                case "run": element = run; break;
+                case "bike": element = bike; break;
+                case "swim": element = swim; break;
+                case "crossTraining": element = crossTraining; break;
+                case "walk": element = walk; break;
+                case "restDay": element = restDay; break;
+                case "strenghTraining": element = strenghTraining; break;
+                case "recoveryRehub": element = recoveryRehub; break;
+                case "other": element = other; break;
+                case "transition": element = transition; break;
+            }
             element.Click();
             Thread.Sleep(1000);
             workoutName.WaitElement();
@@ -61,5 +82,6 @@ namespace FinalsurgeTestsProject.Pages.Workouts
             addWorkoutButton.ScrollToElement();
             addWorkoutButton.Click();
         }
+
     }
 }
