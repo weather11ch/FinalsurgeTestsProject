@@ -3,10 +3,12 @@ using FinalsurgeTestsProject.Pages;
 using FinalsurgeTestsProject.Pages.TrainingCalendar;
 using FinalsurgeTestsProject.Pages.Vitals;
 using FinalsurgeTestsProject.Pages.Workouts;
+using NUnit.Allure.Core;
 using OpenQA.Selenium;
 
 namespace FinalsurgeTestsProject.Tests
 {
+    [AllureNUnit]
     public class Tests : BaseTest
     {
         

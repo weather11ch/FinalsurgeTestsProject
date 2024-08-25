@@ -1,10 +1,12 @@
 ﻿using FinalsurgeTestsProject.Pages;
 using FinalsurgeTestsProject.Pages.Workouts;
+using NUnit.Allure.Core;
 using OpenQA.Selenium;
 
 
 namespace FinalsurgeTestsProject.Tests
 {
+    [AllureNUnit]
     internal class WorkoutTests : BaseTest
     {
         const string url = "https://log.finalsurge.com/WorkoutAdd.cshtml";

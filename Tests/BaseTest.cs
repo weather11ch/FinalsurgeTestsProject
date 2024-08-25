@@ -1,9 +1,11 @@
 ﻿using FinalsurgeTestsProject.Factories;
 using FinalsurgeTestsProject.Pages;
+using NUnit.Allure.Core;
 
 
 namespace FinalsurgeTestsProject.Tests
-{    
+{
+    [AllureNUnit]
     public class BaseTest
     {
         const String basePageUrl = "https://log.finalsurge.com/";
