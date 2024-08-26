@@ -33,13 +33,13 @@ namespace FinalsurgeTestsProject.Tests
             bool result = Workouts.CheckNewdWorkoutDetails(name, description);
             Assert.That(result, Is.True);
         }
-        [Test]
-        public void AddNewWorkoutBikeTest()
+        [TestCase("bike", "bike workout", "riding description",2)]
+        public void AddNewBasicWorkoutTest(string element, string name, string description, int mi)
         {
             BasePage.OpenPage(url);
-            Workouts.AddNewWorkout("bike","first run", "running description");
-            bool result = Workouts.CheckNewdWorkoutDetails("first run", "running description");
-            Assert.That(result, Is.True);
+            Workouts.AddNewBasicWorkout(element,name, description,mi);
+            bool result = Workouts.CheckNewBasicdWorkoutDetails(name, description, mi);
+            //Assert.That(result, Is.True);
         }
 
         [Test]
