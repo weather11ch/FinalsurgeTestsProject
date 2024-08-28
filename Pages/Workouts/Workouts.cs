@@ -47,8 +47,8 @@ namespace FinalsurgeTestsProject.Pages.Workouts
         private static WebElements activityTypeName = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div/div[3]"));
         private static readonly WebElements savedWorkoutDescription  = new(By.XPath("//*[@class=\" testme dont-break-out\"]"));
 
-        private static readonly WebElements savedPlanned = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div[2]/span"));                     
-        private static readonly WebElements savedHowIfelt = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div[4]/span"));                     
+        private static readonly WebElements savedHowIfelt = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div[2]/span"));                     
+        private static readonly WebElements s = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div[4]/span"));                     
         private static readonly WebElements savedMinHR = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/p/small[2]"));                     
         private static readonly WebElements savedAvgHR = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/p/small[2]"));                     
         private static readonly WebElements savedMaxHR = new(By.XPath("//*[@id=\"EditProfile\"]/div/div[1]/div[4]/span"));                     
@@ -107,11 +107,7 @@ namespace FinalsurgeTestsProject.Pages.Workouts
                 case "bike": element = bike; break;
                 case "swim": element = swim; break;
                 case "crossTraining": element = crossTraining; break;
-                case "walk": element = walk; break;
-                case "restDay": element = restDay; break;
-                case "strenghTraining": element = strenghTraining; break;
-                case "recoveryRehub": element = recoveryRehub; break;
-                case "other": element = other; break;
+                case "walk": element = walk; break;               
                 case "transition": element = transition; break;
             }
             element.Click();
@@ -131,12 +127,17 @@ namespace FinalsurgeTestsProject.Pages.Workouts
             goodFeel.Click();
             perceivedEffort.Click();
             selectPerceivedEffort.Click();
-            minHR.Click();
-            minHR.SendKeys("100");
-            AvgHR.Click();
-            AvgHR.SendKeys("120");
-            MaxHR.Click();
-            MaxHR.SendKeys("160");
+            ((IJavaScriptExecutor)Driver.GetDriver()).ExecuteScript("window.scrollBy(0,200)", "");
+            if (elem != "swim")
+            {
+                minHR.Click();
+                minHR.SendKeys("100");
+                AvgHR.Click();
+                AvgHR.SendKeys("120");
+                MaxHR.Click();
+                MaxHR.SendKeys("160");
+            }
+
             caloriesBurned.Click();
             caloriesBurned.SendKeys("200");
 
@@ -145,18 +146,23 @@ namespace FinalsurgeTestsProject.Pages.Workouts
             addWorkoutButton.Click();
         }
 
-        public static bool CheckNewBasicdWorkoutDetails(string name, string description, int mi)
+        public static bool CheckNewBasicdWorkoutDetails(string element, string name, string description, int mi)
         {
             string nametest1 = WebElements.GetTextWebElement(activityTypeName);
             savedWorkoutDescription.WaitElement();
             //Thread.Sleep(1000);            
             string nametest2 = savedWorkoutDescription.GetText().Substring(22);
-            string howIfelt = WebElements.GetTextWebElement(savedHowIfelt);
+            string savedDescriptiom = nametest2.Substring(0, description.Length);
+            string savedPlanned = nametest2.Substring(description.Length+2);
+            
             string head = WebElements.GetTextWebElement(workoutDetails);
             string activitytype = WebElements.GetTextWebElement(activityType);
-            string planned = WebElements.GetTextWebElement(savedPlanned);
+            string howIfelt = WebElements.GetTextWebElement(savedHowIfelt);
+                       
 
-            if (name == nametest1 && description == nametest2)
+            if (name == nametest1 && description == savedDescriptiom
+                && howIfelt == "Good" && activitytype.ToLower().Trim() == element.ToLower()
+                && savedPlanned == "Planned: 2.00 mi ~ 1:00:00")
             { return true; }
             else { return false; };
         }

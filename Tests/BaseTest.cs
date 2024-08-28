@@ -1,4 +1,5 @@
-﻿using FinalsurgeTestsProject.Factories;
+﻿using Allure.Commons;
+using FinalsurgeTestsProject.Factories;
 using FinalsurgeTestsProject.Pages;
 using NUnit.Allure.Core;
 
@@ -15,7 +16,8 @@ namespace FinalsurgeTestsProject.Tests
             Driver.GetDriver();
             Driver.WaitDriver(Driver.GetDriver(), 30);
             BasePage.OpenPage(basePageUrl);
-            Authorization.LoginPasswordEnter();            
+            Authorization.LoginPasswordEnter();   
+            AllureLifecycle.Instance.CleanupResultDirectory();
         }
 
         [TearDown]
