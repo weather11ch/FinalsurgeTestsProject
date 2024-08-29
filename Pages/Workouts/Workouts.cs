@@ -3,6 +3,7 @@ using NUnit.Framework.Constraints;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 
 namespace FinalsurgeTestsProject.Pages.Workouts
@@ -158,10 +159,13 @@ namespace FinalsurgeTestsProject.Pages.Workouts
             string head = WebElements.GetTextWebElement(workoutDetails);
             string activitytype = WebElements.GetTextWebElement(activityType);
             string howIfelt = WebElements.GetTextWebElement(savedHowIfelt);
-                       
 
+            string replacement = "";
+            string pattern = @"\s";
+            activitytype = Regex.Replace(activitytype, pattern, replacement, RegexOptions.IgnoreCase);
+            
             if (name == nametest1 && description == savedDescriptiom
-                && howIfelt == "Good" && activitytype.ToLower().Trim() == element.ToLower()
+                && howIfelt == "Good" && activitytype.ToLower() == element.ToLower()
                 && savedPlanned == "Planned: 2.00 mi ~ 1:00:00")
             { return true; }
             else { return false; };
