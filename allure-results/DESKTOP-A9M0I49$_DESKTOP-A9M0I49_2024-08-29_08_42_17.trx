@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c263699b-14ba-4120-afc1-d9ea0ceff409" name="DESKTOP-A9M0I49$@DESKTOP-A9M0I49 2024-08-29 08:42:17" runUser="NT AUTHORITY\СИСТЕМА" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-08-29T08:42:17.3173536+03:00" queuing="2024-08-29T08:42:17.3173539+03:00" start="2024-08-29T08:42:08.3697196+03:00" finish="2024-08-29T08:46:17.8809129+03:00" />
+  <TestSettings name="default" id="bafebd56-2abe-44e5-81c4-f3503d5118d8">
+    <Deployment runDeploymentRoot="DESKTOP-A9M0I49$_DESKTOP-A9M0I49_2024-08-29_08_42_17" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b2eeca57-5cb4-4a70-92ac-552f51a22b04" testId="44473a8c-cd23-82dd-5640-d78e27a8e216" testName="AddNewBasicWorkoutTest(&quot;run&quot;,&quot;run workout&quot;,&quot;running description&quot;,2)" computerName="DESKTOP-A9M0I49" duration="00:00:14.5926730" startTime="2024-08-29T08:43:08.2402259+03:00" endTime="2024-08-29T08:43:22.8328985+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2eeca57-5cb4-4a70-92ac-552f51a22b04">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f84b6d1-bf80-4a1f-88d1-0385e542029d" testId="f982894d-66a9-b261-7e17-d255c69cb1d5" testName="OpenCalendarByButtonTest" computerName="DESKTOP-A9M0I49" duration="00:00:10.6641880" startTime="2024-08-29T08:42:26.1072916+03:00" endTime="2024-08-29T08:42:36.7714786+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f84b6d1-bf80-4a1f-88d1-0385e542029d">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1cda7d4-a39c-42c6-9341-dfe9fbb67c87" testId="a95899eb-9ac4-f5b2-24fc-da72343df61a" testName="AddNewWorkoutTest(&quot;restDay&quot;,&quot;restDay&quot;,&quot;restDay description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:12.7851430" startTime="2024-08-29T08:45:18.7385156+03:00" endTime="2024-08-29T08:45:31.5236582+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1cda7d4-a39c-42c6-9341-dfe9fbb67c87">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c0920892-53e3-45d7-b5f1-11eb75027f22" testId="d842d50f-2ea6-e8da-3031-14ea0c4d4e40" testName="AddNewWorkoutTest(&quot;strenghTraining&quot;,&quot;strenghTraining&quot;,&quot;strenghTraining description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:11.6952770" startTime="2024-08-29T08:45:31.5236923+03:00" endTime="2024-08-29T08:45:43.2189688+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0920892-53e3-45d7-b5f1-11eb75027f22">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="479bdbe0-743b-4262-9fde-f8d0be8d6207" testId="19d9e6d0-1c29-22bb-9d68-77ffeaf3fd46" testName="AddNewWorkoutTest(&quot;bike&quot;,&quot;bike workout&quot;,&quot;riding description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:12.1591580" startTime="2024-08-29T08:44:15.3125869+03:00" endTime="2024-08-29T08:44:27.4717445+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="479bdbe0-743b-4262-9fde-f8d0be8d6207">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dcd94871-8597-4dc6-a047-1a6f41dd0afc" testId="a9561a95-4f0b-cd2e-7919-62020485eeea" testName="AddNewWorkoutTest(&quot;transition&quot;,&quot;transition&quot;,&quot;transition description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:10.9897110" startTime="2024-08-29T08:46:06.8159197+03:00" endTime="2024-08-29T08:46:17.8056303+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcd94871-8597-4dc6-a047-1a6f41dd0afc">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1561fccc-2978-41fb-a714-4c3b8533f3b1" testId="49628667-5363-e13d-aab5-fb716b9ec45f" testName="AddNewWorkoutRunTest" computerName="DESKTOP-A9M0I49" duration="00:00:11.8056810" startTime="2024-08-29T08:43:50.4393892+03:00" endTime="2024-08-29T08:44:02.2450687+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1561fccc-2978-41fb-a714-4c3b8533f3b1">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2227d11-5623-4ffb-ba5b-ace104bafea6" testId="817e9c25-3506-73b5-412c-f06ca095ac7c" testName="AddNewWorkoutTest(&quot;run&quot;,&quot;run workout&quot;,&quot;running description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:11.3073029" startTime="2024-08-29T08:44:27.4717913+03:00" endTime="2024-08-29T08:44:38.7790934+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2227d11-5623-4ffb-ba5b-ace104bafea6">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6064a7fe-f471-4e0e-83a7-39b949c95ed3" testId="e6c3221f-1b8f-7898-88d3-e3728c0a3bb5" testName="AauthorizationCheckTest" computerName="DESKTOP-A9M0I49" duration="00:00:07.9797650" startTime="2024-08-29T08:42:09.2890982+03:00" endTime="2024-08-29T08:42:17.2687848+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6064a7fe-f471-4e0e-83a7-39b949c95ed3">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="09c5ea8a-d19e-43d9-b14c-4390c38cc869" testId="6eb40d02-06fc-ffb2-083c-fa49753de0b3" testName="AddNewWorkoutTest(&quot;other&quot;,&quot;other&quot;,&quot;other description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:11.9962199" startTime="2024-08-29T08:45:54.8196615+03:00" endTime="2024-08-29T08:46:06.8158810+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09c5ea8a-d19e-43d9-b14c-4390c38cc869">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1aa3acf0-7042-461b-843e-571ae2299409" testId="d1acfbf7-969e-8915-837e-6adce9c03f62" testName="AddNewWorkoutTest(&quot;crossTraining&quot;,&quot;crossTraining workout&quot;,&quot;crossTraining description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:12.4841350" startTime="2024-08-29T08:44:50.4104996+03:00" endTime="2024-08-29T08:45:02.8946336+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aa3acf0-7042-461b-843e-571ae2299409">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13cbd52f-a193-4849-aa9d-77347cc3f9f3" testId="09a7f568-28ed-da50-b566-6786c268b30a" testName="OpenDailyVitalsPageTest" computerName="DESKTOP-A9M0I49" duration="00:00:07.5020290" startTime="2024-08-29T08:42:36.7715388+03:00" endTime="2024-08-29T08:42:44.2735675+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13cbd52f-a193-4849-aa9d-77347cc3f9f3">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ac36a30-b7a3-47a4-9336-2f1560fb8c7e" testId="2562054b-d404-4302-223c-238ce5f75557" testName="AddNewWorkoutTest(&quot;walk&quot;,&quot;walk workout&quot;,&quot;walking description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:15.8437840" startTime="2024-08-29T08:45:02.8946887+03:00" endTime="2024-08-29T08:45:18.7384719+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ac36a30-b7a3-47a4-9336-2f1560fb8c7e">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9c914b5d-b5a1-4d91-bfcc-ebc9ef4de52f" testId="1bde3e90-2640-fcb5-ac93-a86a088fa05c" testName="AddNewBasicWorkoutTest(&quot;swim&quot;,&quot;swim workout&quot;,&quot;swimming description&quot;,2)" computerName="DESKTOP-A9M0I49" duration="00:00:13.1759100" startTime="2024-08-29T08:43:22.8329319+03:00" endTime="2024-08-29T08:43:36.0088414+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c914b5d-b5a1-4d91-bfcc-ebc9ef4de52f">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6e9d20a-050c-4df4-a0e1-34e916fe082f" testId="3780a676-703f-d908-102c-cc21aba20030" testName="AddNewWorkoutTest(&quot;recoveryRehub&quot;,&quot;recoveryRehub&quot;,&quot;recoveryRehub description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:11.6005470" startTime="2024-08-29T08:45:43.2190267+03:00" endTime="2024-08-29T08:45:54.8195736+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6e9d20a-050c-4df4-a0e1-34e916fe082f">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="735218bf-c53f-454f-bc0d-6dabdcd1ddc9" testId="8128fb0a-ad3a-8a95-61c8-095250744327" testName="AddNewBasicWorkoutTest(&quot;crossTraining&quot;,&quot;crossTraining workout&quot;,&quot;crossTraining description&quot;,2)" computerName="DESKTOP-A9M0I49" duration="00:00:14.4303650" startTime="2024-08-29T08:43:36.0088877+03:00" endTime="2024-08-29T08:43:50.4392523+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="735218bf-c53f-454f-bc0d-6dabdcd1ddc9">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="906d6d46-2053-46d7-a51a-30442ec4f172" testId="21da2d9d-1efb-e801-62ed-f898b76c6455" testName="OpenAddWorksPageTest" computerName="DESKTOP-A9M0I49" duration="00:00:08.8368480" startTime="2024-08-29T08:42:17.2703857+03:00" endTime="2024-08-29T08:42:26.1072331+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="906d6d46-2053-46d7-a51a-30442ec4f172">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="84a89f28-4a49-4c0d-b599-c74b29ecbc6a" testId="a4ec9c58-e29a-4ec5-046c-cbb9b79bd5e3" testName="AddNewBasicWorkoutTest(&quot;bike&quot;,&quot;bike workout&quot;,&quot;riding description&quot;,2)" computerName="DESKTOP-A9M0I49" duration="00:00:13.1991820" startTime="2024-08-29T08:42:55.0410152+03:00" endTime="2024-08-29T08:43:08.2401965+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84a89f28-4a49-4c0d-b599-c74b29ecbc6a">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bce9d203-3251-493e-b1c1-7da6510213a7" testId="d9871a85-4a1a-0c06-c21e-41b9a157cc11" testName="AddNewWorkoutTest(&quot;swim&quot;,&quot;swim workout&quot;,&quot;swimming description&quot;)" computerName="DESKTOP-A9M0I49" duration="00:00:11.6312810" startTime="2024-08-29T08:44:38.7791730+03:00" endTime="2024-08-29T08:44:50.4104532+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bce9d203-3251-493e-b1c1-7da6510213a7">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67ceec39-e745-41f2-a2b4-b369ef4b1180" testId="8925873e-5352-bbbb-287a-8b52eb7ceb2b" testName="OpenTrainingCalendarPageTest" computerName="DESKTOP-A9M0I49" duration="00:00:10.7645210" startTime="2024-08-29T08:42:44.2736248+03:00" endTime="2024-08-29T08:42:55.0381452+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67ceec39-e745-41f2-a2b4-b369ef4b1180">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e5803fc7-5dfb-47ca-a20d-c037d77013b3" testId="afdf72f6-4bd3-4c53-e77f-dcf83cb4155b" testName="AddNewWorkoutSwimTest" computerName="DESKTOP-A9M0I49" duration="00:00:13.0674119" startTime="2024-08-29T08:44:02.2451123+03:00" endTime="2024-08-29T08:44:15.3125244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5803fc7-5dfb-47ca-a20d-c037d77013b3">
+      <Output>
+        <StdOut>Value cannot be null. (Parameter 'key')</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AddNewBasicWorkoutTest(&quot;bike&quot;,&quot;bike workout&quot;,&quot;riding description&quot;,2)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="a4ec9c58-e29a-4ec5-046c-cbb9b79bd5e3">
+      <Execution id="84a89f28-4a49-4c0d-b599-c74b29ecbc6a" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewBasicWorkoutTest(&quot;bike&quot;,&quot;bike workout&quot;,&quot;riding description&quot;,2)" />
+    </UnitTest>
+    <UnitTest name="AauthorizationCheckTest" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="e6c3221f-1b8f-7898-88d3-e3728c0a3bb5">
+      <Execution id="6064a7fe-f471-4e0e-83a7-39b949c95ed3" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.Tests" name="AauthorizationCheckTest" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;other&quot;,&quot;other&quot;,&quot;other description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="6eb40d02-06fc-ffb2-083c-fa49753de0b3">
+      <Execution id="09c5ea8a-d19e-43d9-b14c-4390c38cc869" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;other&quot;,&quot;other&quot;,&quot;other description&quot;)" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;crossTraining&quot;,&quot;crossTraining workout&quot;,&quot;crossTraining description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="d1acfbf7-969e-8915-837e-6adce9c03f62">
+      <Execution id="1aa3acf0-7042-461b-843e-571ae2299409" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;crossTraining&quot;,&quot;crossTraining workout&quot;,&quot;crossTraining description&quot;)" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;restDay&quot;,&quot;restDay&quot;,&quot;restDay description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="a95899eb-9ac4-f5b2-24fc-da72343df61a">
+      <Execution id="a1cda7d4-a39c-42c6-9341-dfe9fbb67c87" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;restDay&quot;,&quot;restDay&quot;,&quot;restDay description&quot;)" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutRunTest" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="49628667-5363-e13d-aab5-fb716b9ec45f">
+      <Execution id="1561fccc-2978-41fb-a714-4c3b8533f3b1" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutRunTest" />
+    </UnitTest>
+    <UnitTest name="OpenDailyVitalsPageTest" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="09a7f568-28ed-da50-b566-6786c268b30a">
+      <Execution id="13cbd52f-a193-4849-aa9d-77347cc3f9f3" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.Tests" name="OpenDailyVitalsPageTest" />
+    </UnitTest>
+    <UnitTest name="AddNewBasicWorkoutTest(&quot;crossTraining&quot;,&quot;crossTraining workout&quot;,&quot;crossTraining description&quot;,2)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="8128fb0a-ad3a-8a95-61c8-095250744327">
+      <Execution id="735218bf-c53f-454f-bc0d-6dabdcd1ddc9" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewBasicWorkoutTest(&quot;crossTraining&quot;,&quot;crossTraining workout&quot;,&quot;crossTraining description&quot;,2)" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutSwimTest" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="afdf72f6-4bd3-4c53-e77f-dcf83cb4155b">
+      <Execution id="e5803fc7-5dfb-47ca-a20d-c037d77013b3" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutSwimTest" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;run&quot;,&quot;run workout&quot;,&quot;running description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="817e9c25-3506-73b5-412c-f06ca095ac7c">
+      <Execution id="e2227d11-5623-4ffb-ba5b-ace104bafea6" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;run&quot;,&quot;run workout&quot;,&quot;running description&quot;)" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;strenghTraining&quot;,&quot;strenghTraining&quot;,&quot;strenghTraining description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="d842d50f-2ea6-e8da-3031-14ea0c4d4e40">
+      <Execution id="c0920892-53e3-45d7-b5f1-11eb75027f22" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;strenghTraining&quot;,&quot;strenghTraining&quot;,&quot;strenghTraining description&quot;)" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;swim&quot;,&quot;swim workout&quot;,&quot;swimming description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="d9871a85-4a1a-0c06-c21e-41b9a157cc11">
+      <Execution id="bce9d203-3251-493e-b1c1-7da6510213a7" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;swim&quot;,&quot;swim workout&quot;,&quot;swimming description&quot;)" />
+    </UnitTest>
+    <UnitTest name="OpenTrainingCalendarPageTest" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="8925873e-5352-bbbb-287a-8b52eb7ceb2b">
+      <Execution id="67ceec39-e745-41f2-a2b4-b369ef4b1180" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.Tests" name="OpenTrainingCalendarPageTest" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;walk&quot;,&quot;walk workout&quot;,&quot;walking description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="2562054b-d404-4302-223c-238ce5f75557">
+      <Execution id="2ac36a30-b7a3-47a4-9336-2f1560fb8c7e" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;walk&quot;,&quot;walk workout&quot;,&quot;walking description&quot;)" />
+    </UnitTest>
+    <UnitTest name="OpenAddWorksPageTest" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="21da2d9d-1efb-e801-62ed-f898b76c6455">
+      <Execution id="906d6d46-2053-46d7-a51a-30442ec4f172" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.Tests" name="OpenAddWorksPageTest" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;transition&quot;,&quot;transition&quot;,&quot;transition description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="a9561a95-4f0b-cd2e-7919-62020485eeea">
+      <Execution id="dcd94871-8597-4dc6-a047-1a6f41dd0afc" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;transition&quot;,&quot;transition&quot;,&quot;transition description&quot;)" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;recoveryRehub&quot;,&quot;recoveryRehub&quot;,&quot;recoveryRehub description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="3780a676-703f-d908-102c-cc21aba20030">
+      <Execution id="d6e9d20a-050c-4df4-a0e1-34e916fe082f" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;recoveryRehub&quot;,&quot;recoveryRehub&quot;,&quot;recoveryRehub description&quot;)" />
+    </UnitTest>
+    <UnitTest name="AddNewBasicWorkoutTest(&quot;swim&quot;,&quot;swim workout&quot;,&quot;swimming description&quot;,2)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="1bde3e90-2640-fcb5-ac93-a86a088fa05c">
+      <Execution id="9c914b5d-b5a1-4d91-bfcc-ebc9ef4de52f" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewBasicWorkoutTest(&quot;swim&quot;,&quot;swim workout&quot;,&quot;swimming description&quot;,2)" />
+    </UnitTest>
+    <UnitTest name="AddNewBasicWorkoutTest(&quot;run&quot;,&quot;run workout&quot;,&quot;running description&quot;,2)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="44473a8c-cd23-82dd-5640-d78e27a8e216">
+      <Execution id="b2eeca57-5cb4-4a70-92ac-552f51a22b04" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewBasicWorkoutTest(&quot;run&quot;,&quot;run workout&quot;,&quot;running description&quot;,2)" />
+    </UnitTest>
+    <UnitTest name="OpenCalendarByButtonTest" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="f982894d-66a9-b261-7e17-d255c69cb1d5">
+      <Execution id="6f84b6d1-bf80-4a1f-88d1-0385e542029d" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.Tests" name="OpenCalendarByButtonTest" />
+    </UnitTest>
+    <UnitTest name="AddNewWorkoutTest(&quot;bike&quot;,&quot;bike workout&quot;,&quot;riding description&quot;)" storage="c:\users\1\source\repos\finalsurgetestsproject\bin\debug\net8.0\finalsurgetestsproject.dll" id="19d9e6d0-1c29-22bb-9d68-77ffeaf3fd46">
+      <Execution id="479bdbe0-743b-4262-9fde-f8d0be8d6207" />
+      <TestMethod codeBase="C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="FinalsurgeTestsProject.Tests.WorkoutTests" name="AddNewWorkoutTest(&quot;bike&quot;,&quot;bike workout&quot;,&quot;riding description&quot;)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="44473a8c-cd23-82dd-5640-d78e27a8e216" executionId="b2eeca57-5cb4-4a70-92ac-552f51a22b04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f982894d-66a9-b261-7e17-d255c69cb1d5" executionId="6f84b6d1-bf80-4a1f-88d1-0385e542029d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a95899eb-9ac4-f5b2-24fc-da72343df61a" executionId="a1cda7d4-a39c-42c6-9341-dfe9fbb67c87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d842d50f-2ea6-e8da-3031-14ea0c4d4e40" executionId="c0920892-53e3-45d7-b5f1-11eb75027f22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19d9e6d0-1c29-22bb-9d68-77ffeaf3fd46" executionId="479bdbe0-743b-4262-9fde-f8d0be8d6207" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9561a95-4f0b-cd2e-7919-62020485eeea" executionId="dcd94871-8597-4dc6-a047-1a6f41dd0afc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49628667-5363-e13d-aab5-fb716b9ec45f" executionId="1561fccc-2978-41fb-a714-4c3b8533f3b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="817e9c25-3506-73b5-412c-f06ca095ac7c" executionId="e2227d11-5623-4ffb-ba5b-ace104bafea6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6c3221f-1b8f-7898-88d3-e3728c0a3bb5" executionId="6064a7fe-f471-4e0e-83a7-39b949c95ed3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6eb40d02-06fc-ffb2-083c-fa49753de0b3" executionId="09c5ea8a-d19e-43d9-b14c-4390c38cc869" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1acfbf7-969e-8915-837e-6adce9c03f62" executionId="1aa3acf0-7042-461b-843e-571ae2299409" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09a7f568-28ed-da50-b566-6786c268b30a" executionId="13cbd52f-a193-4849-aa9d-77347cc3f9f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2562054b-d404-4302-223c-238ce5f75557" executionId="2ac36a30-b7a3-47a4-9336-2f1560fb8c7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bde3e90-2640-fcb5-ac93-a86a088fa05c" executionId="9c914b5d-b5a1-4d91-bfcc-ebc9ef4de52f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3780a676-703f-d908-102c-cc21aba20030" executionId="d6e9d20a-050c-4df4-a0e1-34e916fe082f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8128fb0a-ad3a-8a95-61c8-095250744327" executionId="735218bf-c53f-454f-bc0d-6dabdcd1ddc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21da2d9d-1efb-e801-62ed-f898b76c6455" executionId="906d6d46-2053-46d7-a51a-30442ec4f172" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4ec9c58-e29a-4ec5-046c-cbb9b79bd5e3" executionId="84a89f28-4a49-4c0d-b599-c74b29ecbc6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9871a85-4a1a-0c06-c21e-41b9a157cc11" executionId="bce9d203-3251-493e-b1c1-7da6510213a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8925873e-5352-bbbb-287a-8b52eb7ceb2b" executionId="67ceec39-e745-41f2-a2b4-b369ef4b1180" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afdf72f6-4bd3-4c53-e77f-dcf83cb4155b" executionId="e5803fc7-5dfb-47ca-a20d-c037d77013b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="21" executed="21" passed="21" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in C:\Users\1\source\repos\FinalsurgeTestsProject\bin\Debug\net8.0\FinalsurgeTestsProject.dll&#xD;
+   NUnit3TestExecutor discovered 21 of 21 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:42:17.2822268+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:42:26.1084841+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:42:36.7722517+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:42:44.2744541+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:42:55.0391523+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:43:08.2411332+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:43:22.8340249+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:43:36.0098425+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:43:50.4399887+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:44:02.2465898+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:44:15.3135007+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:44:27.4725373+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:44:38.7801338+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:44:50.4117270+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:45:02.8958765+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:45:18.7401295+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:45:31.5242344+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:45:43.2195178+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:45:54.8201687+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:46:06.8165549+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-A9M0I49" outcome="Warning" timestamp="2024-08-29T08:46:17.8064275+03:00">
+        <Text>Value cannot be null. (Parameter 'key')&#xD;
+</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

@@ -71,7 +71,7 @@ namespace FinalsurgeTestsProject.Pages.Workouts
             if (name == nametest1 && description == nametest2)
                 {return true;} else { return false; };
         }
-        //добавление нового workout в переменной element передается activity type
+        //добавление нового workout в переменной element передается activity type, для всех типов, по названию и описанию (общие поля)
         public static void AddNewWorkout(string elem, string name, string description)
         {
             
@@ -99,7 +99,7 @@ namespace FinalsurgeTestsProject.Pages.Workouts
             addWorkoutButton.ScrollToElement();
             addWorkoutButton.Click();
         }
-
+        //добавление нового workout с вкладкой Basic в переменной element передается activity type, для типов активности имеющих общие поля
         public static void AddNewBasicWorkout(string elem, string name, string description, int mi)
         {
             switch (elem)

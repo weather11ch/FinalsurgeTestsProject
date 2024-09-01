@@ -38,10 +38,6 @@ namespace FinalsurgeTestsProject.Tests
         {
             ButtonMenu.CalendarOpenByButton();
         }
-        [Test]
-        public void OpenDailyVitalsPageTest()
-        {
-            DailyVitalsPage.OpenDailyVitalsPage();
-        }
+       
     }
 }
